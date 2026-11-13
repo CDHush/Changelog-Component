@@ -16,23 +16,40 @@ body {
 .date-description {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  align-items: start;
+  align-items: baseline;
+}
+
+.date-description ul {
+  display: grid;
+  gap: 16px;
+  padding-left: 0;
+}
+
+.date li {
+  line-height: 1.6em;
+}
+
+.date-description li::marker {
+  font-size: 1.5em;
 }
 
 .date {
   list-style: none;
   color: gray;
 }
+
 .dates {
   padding: 0;
   margin: 0;
   text-align: right;
-  justify-self: end;
+  margin-right: 17px;
+  padding-right: 16px;
+  border-right: 2px solid black;
 }
 
 .complete-changelog-button {
   display: block;
-  margin-inline: auto;
+  margin: 16px auto 0;
   background-color: black;
   color: white;
   border: 0;
