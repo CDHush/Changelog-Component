@@ -19,6 +19,17 @@ body {
   align-items: start;
 }
 
+.date {
+  list-style: none;
+  color: gray;
+}
+.dates {
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  justify-self: end;
+}
+
 .complete-changelog-button {
   display: block;
   margin-inline: auto;
