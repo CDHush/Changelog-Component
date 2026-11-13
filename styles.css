@@ -1,0 +1,31 @@
+body {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+.changelog {
+  border: solid 2px black;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.changelog h1:first-of-type,
+.changelog p:first-of-type {
+  text-align: center;
+}
+
+.date-description {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: start;
+}
+
+.complete-changelog-button {
+  display: block;
+  margin-inline: auto;
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 1rem;
+}
