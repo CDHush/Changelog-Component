@@ -3,9 +3,13 @@ body {
 }
 
 .changelog {
+  box-sizing: border-box;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto;
   border: solid 2px black;
   border-radius: 12px;
-  padding: 16px;
+  padding: 45px 75px 45px 75px;
 }
 
 .changelog h1:first-of-type,
@@ -54,7 +58,7 @@ body {
   background-color: black;
   color: white;
   border: 0;
-  border-radius: 8px;
+  border-radius: 12px;
   padding: 12px 24px;
   font-size: 1rem;
 }
